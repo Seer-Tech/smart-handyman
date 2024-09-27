@@ -1,6 +1,6 @@
 # Smart Handyman
 
-A Water bike rental group a water bike rental company based out of  Sydney that facilitates the  rental of water bikes to  customers of all ages.
+A handyman company dedicated to providing top-notch home repair and maintenance services for minor repairs to complete renovations.
 
 ## Getting Started
 
