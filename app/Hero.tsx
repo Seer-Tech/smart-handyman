@@ -17,7 +17,7 @@ export default function Hero({setOpen} : {setOpen: (value: boolean) => void}) {
                     <p className="font-ox font-medium text-5xl md:text-7xl xl:text-8xl">Handyman Services</p>
                     <p className="font-ra text-md md:text-xl">We are a team of experienced handymen ready to deliver exceptional service across the board.</p>
                     
-                    <button onClick={() => setOpen(true)} className="rounded-none bg-red-700 hover:bg-red-800 h-10 md:h-12 flex items-center p-2 md:p-5 space-x-1 md:space-x-2.5 shrink">
+                    <button onClick={() => setOpen(true)} className="transition-all ease-in-out duration-500 rounded-none bg-red-700 hover:bg-red-800 h-10 md:h-12 flex items-center p-2 md:p-5 space-x-1 md:space-x-2.5 shrink">
                         <p className="font-ra font-bold text-sm md:text-md">SCHEDULE YOUR APPOINTMENT</p>
                         <Image src={buttonArrow} height={20} width={20} alt="button arrow"/>
                     </button>

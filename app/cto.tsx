@@ -13,7 +13,7 @@ export default function CTO({setOpen} : {setOpen: (value: boolean) => void}) {
                 </div>
                 <div className='h-40 md:h-48 shadow flex flex-col items-center justify-center'>
                     <p className='font-ox text-md text-black pt-5 md:pt-0'>BOOK APPOINTMENT</p>
-                    <button onClick={() => setOpen(true)} className="rounded-none bg-red-700 hover:bg-red-800 flex w-60 lg:w-80 h-14 md:h-20  p-8 md:p-8 flex items-center shadow-md space-x-4 md:space-x-0 flex justify-center md:jusitfy-start">
+                    <button onClick={() => setOpen(true)} className="transition-all ease-in-out duration-500 rounded-none bg-red-700 hover:bg-red-800 flex w-60 lg:w-80 h-14 md:h-20  p-8 md:p-8 flex items-center shadow-md space-x-4 md:space-x-0 flex justify-center md:jusitfy-start">
                         <p className='font-ox font-semibold text-lg lg:text-2xl text-white'>Schedule your Appointment</p>
                         <Image src={ctoArrow} height={14} width={18} alt="button arrow"/>
                     </button>
