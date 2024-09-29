@@ -36,7 +36,7 @@ export default function Contact({setOpen} : {setOpen: (value: boolean) => void})
                             <div className="md:flex-row md:space-x-2 space-y-2 md:space-y-0 align-top align-text-top align-super">
                                 <input type="text" className="h-40 text-black text-sm border border-red-800 rounded-none p-1 w-full pb-32" placeholder="Message"/>
                             </div>
-                            <button onClick={() => setOpen(true)} className="rounded-none bg-red-700 h-10 md:h-12 flex items-center p-2 md:p-5 space-x-1 md:space-x-2.5 shrink w-72 sm:w-auto justify-center">
+                            <button onClick={() => setOpen(true)} className="rounded-none bg-red-700 hover:bg-red-800 h-10 md:h-12 flex items-center p-2 md:p-5 space-x-1 md:space-x-2.5 shrink w-72 sm:w-auto justify-center">
                                 <p className="font-ra text-white font-bold text-sm md:text-sm">Get in contact</p>
                                 <Image src={buttonArrow} height={14} width={13} alt="button arrow" className="hidden sm:flex"/>
                             </button>

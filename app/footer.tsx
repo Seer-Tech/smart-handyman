@@ -17,7 +17,7 @@ export default function Footer() {
                         <Image src={footerLogo} alt="logo" width={200} height={317} className=""/>
                     </div>
                     <div>
-                        <p className="font-ox text-red-800 font-medium text-xl md:text-xl">COPYRIGHT 2024</p>
+                        <p className="font-ox text-red-600 font-medium text-xl md:text-xl">COPYRIGHT 2024</p>
                     </div>
                     <div className="flex flex-row space-x-2">
                     <Link href="#"><Image src={fb} alt="fb" width={30} height={30} className=""/></Link>
