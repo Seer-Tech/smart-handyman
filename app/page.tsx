@@ -17,7 +17,7 @@ import Footer from "./footer";
 import Modal from "./modal";
 
 export default function Home() {
-  const [open, setOpen] = useState(true)
+  const [open, setOpen] = useState(false)
 
   return (
     <>
