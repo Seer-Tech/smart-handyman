@@ -12,12 +12,6 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
-const ralewaySans = localFont({
-  src: "./fonts/Raleway-Regular.ttf",
-  variable: "--font-raleway-sans",
-  weight: "100 900",
-})
-
 
 export const metadata: Metadata = {
   title: "Create Next App",

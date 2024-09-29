@@ -5,7 +5,7 @@ import Image from "next/image";
 import buttonArrow from '../images/contact/arrow.png';
 import ContactSidebar from "./contactSidebar";
 
-export default function Contact({open, setOpen} : {open: boolean, setOpen: (value: boolean) => void}) {
+export default function Contact({setOpen} : {setOpen: (value: boolean) => void}) {
     return (
         <>
             <div className="mx-auto mx-w-full bg-white py-10">
@@ -25,7 +25,7 @@ export default function Contact({open, setOpen} : {open: boolean, setOpen: (valu
                             </div>
                             <div className="flex flex-col md:flex-row md:space-x-2 space-y-2 md:gap-2 md:space-y-0">
                                 <input type="text" className="text-sm text-black border border-red-800 rounded-none p-1 w-full" placeholder="Phone number"/>
-                                <select id="service" name="service" className="text-sm text-black bg-white border border-red-800 rounded-none p-1 pb-1.5 md:pb-0 w-full" defaultValue="Select a service" defaultValue={"default"}>
+                                <select id="service" name="service" className="text-sm text-black bg-white border border-red-800 rounded-none p-1 pb-1.5 md:pb-0 w-full" defaultValue="Select a service">
                                     <option value="default" disabled>Select a service</option>
                                     <option value="general">General</option>
                                     <option value="plumbing">Plumbing</option>

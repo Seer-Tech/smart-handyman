@@ -5,7 +5,7 @@ import Image from "next/image";
 import headerImage from './images/header.png';
 import buttonArrow from './images/mdi_chevron-right.png'
 
-export default function Hero({open, setOpen} : {open: boolean, setOpen: (value: boolean) => void}) {
+export default function Hero({setOpen} : {setOpen: (value: boolean) => void}) {
     return (
         <>
             <div className="mx-auto mx-w-full bg-header pb-10 md:pb-0">

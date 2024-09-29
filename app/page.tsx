@@ -1,16 +1,11 @@
 'use client'
 
 {/* Imports */}
-import Image from "next/image";
 import Head from "./head";
 import Navbar from "./navbar";
 import { useState } from 'react'
-import { Dialog, DialogBackdrop, DialogPanel, DialogTitle } from '@headlessui/react'
-import { ExclamationTriangleIcon } from '@heroicons/react/24/outline'
 
 {/* Components */}
-import headerImage from "./images/header.png";
-import buttonArrow from './images/mdi_chevron-right.png'
 import CTO from "./cto";
 import Services from "./services";
 import Process from "./process";
@@ -27,17 +22,17 @@ export default function Home() {
   return (
     <>
     <Head />
-    <Navbar open={open} setOpen={setOpen}/>
-    <Hero  open={open} setOpen={setOpen}/>
-    <CTO  open={open} setOpen={setOpen}/>
+    <Navbar setOpen={setOpen}/>
+    <Hero setOpen={setOpen}/>
+    <CTO setOpen={setOpen}/>
     <Services />
-    <CTO  open={open} setOpen={setOpen}/>
+    <CTO setOpen={setOpen}/>
     <Process />
-    <CTO  open={open} setOpen={setOpen}/>
+    <CTO  setOpen={setOpen}/>
     <Repairs />
-    <CTO  open={open} setOpen={setOpen}/>
-    <Contact  open={open} setOpen={setOpen}/>
-    <CTO  open={open} setOpen={setOpen}/>
+    <CTO  setOpen={setOpen}/>
+    <Contact setOpen={setOpen}/>
+    <CTO  setOpen={setOpen}/>
     <Map />
     <Footer />
     <Modal open={open} setOpen={setOpen}/>

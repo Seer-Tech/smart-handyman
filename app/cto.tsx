@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import ctoArrow from './images/cto/cto-arrow.png';
 
-export default function CTO({open, setOpen} : {open: boolean, setOpen: (value: boolean) => void}) {
+export default function CTO({setOpen} : {setOpen: (value: boolean) => void}) {
     return (
         <>
             <div className="max-w-full md:columns-3 gap-0 bg-card drop-shadow-sm">

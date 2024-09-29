@@ -1,5 +1,5 @@
-import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import logo from './images/shm-logo.png';
 import Image from 'next/image';
 
@@ -7,12 +7,12 @@ const navigation = [
     { name: 'Contact Us', href: '#', current: false }
   ]
 
-  function classNames(...classes: any[]) {
+  function classNames(...classes: string[]) {
     return classes.filter(Boolean).join(' ')
   }
 
 
-export default function Navbar({open, setOpen} : {open: boolean, setOpen: (value: boolean) => void}) {
+export default function Navbar({setOpen} : {setOpen: (value: boolean) => void}) {
     return (
         <Disclosure as="nav" className="bg-header">
         <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 bg-header">

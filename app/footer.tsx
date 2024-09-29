@@ -2,7 +2,6 @@
 import Image from "next/image"
 
 {/* Images */}
-import bg from './images/footer/bg.png';
 import footerLogo from './images/footer/footer-logo.png';
 import tw from './images/footer/tw.png';
 import fb from './images/footer/fb.png';

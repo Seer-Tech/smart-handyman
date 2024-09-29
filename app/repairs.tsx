@@ -42,7 +42,7 @@ export default function Repairs() {
                         {/* Step 3 */}
                         <div className="flex flex-col pl-0 md:pl-5">
                                 <p className="text-red-900 font-ox text-xl md:text-2xl lg:text-3xl">Custom Solutions for Unique Needs</p>
-                                <p className="text-black font-ra text-sm md:text-md pl-1">Have a project in mind that doesn't fit the usual categories? Our skilled handymen are ready to tackle any unique service you require, providing tailored solutions to meet your specific needs.</p>
+                                <p className="text-black font-ra text-sm md:text-md pl-1">Have a project in mind that doesn&lsquot fit the usual categories? Our skilled handymen are ready to tackle any unique service you require, providing tailored solutions to meet your specific needs.</p>
                         </div>
                         {/* Or Block */}
                         <div className=" bg-red-600 px-2 py-2 drop-shadow-2xl">
