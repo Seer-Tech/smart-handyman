@@ -19,10 +19,10 @@ export default function Navbar({setOpen} : {setOpen: (value: boolean) => void}) 
           <div className="relative flex h-16 items-center justify-between">
             <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
               {/* Mobile menu button*/}
-              <DisclosureButton className="group relative inline-flex items-center justify-center rounded-md p-2 text-white-400 hover:bg-white-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+              <DisclosureButton className="group relative inline-flex items-center justify-center rounded-md p-2 text-white-400 hover:bg-white-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white color">
                 <span className="absolute -inset-0.5" />
                 <span className="sr-only">Open main menu</span>
-                <Bars3Icon aria-hidden="true" className="block h-6 w-6 group-data-[open]:hidden" />
+                <Bars3Icon aria-hidden="true" className="block h-6 w-6 group-data-[open]:hidden text-white" />
                 <XMarkIcon aria-hidden="true" className="hidden h-6 w-6 group-data-[open]:block" />
               </DisclosureButton>
             </div>
@@ -68,7 +68,7 @@ export default function Navbar({setOpen} : {setOpen: (value: boolean) => void}) 
                 href={item.href}
                 aria-current={item.current ? 'page' : undefined}
                 className={classNames(
-                  item.current ? 'bg-white-900 text-white' : 'text-white-600 hover:bg-white-700 hover:text-white',
+                  item.current ? 'bg-white-900 text-white' : 'text-white hover:bg-white-700 hover:text-white',
                   'block rounded-md px-3 py-2 text-base font-medium',
                 )}
               >
